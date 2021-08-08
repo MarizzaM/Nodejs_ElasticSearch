@@ -20,7 +20,7 @@ Run the kibana.bat using the command prompt. kibana UI can then be accessed at l
 
 Download the latest version of logstash from [Logstash downloads](https://www.elastic.co/downloads/logstash)
 
-Start logstash as follows-
+Start [logstash](https://github.com/MarizzaM/Nodejs_ElasticSearch/blob/main/logstash.conf) as follows-
 
 ![image](https://user-images.githubusercontent.com/75089445/128631446-d74c4f35-b5bd-4fbe-80af-b3b78fc0103e.png)
 
@@ -30,7 +30,7 @@ Start logstash as follows-
 
 Download filebeat from [FileBeat Download](https://www.elastic.co/downloads/beats/filebeat)
 
-Start filebeat as follows-
+Start [filebeat](https://github.com/MarizzaM/Nodejs_ElasticSearch/blob/main/filebeat_json.yml) as follows-
 
 ![image](https://user-images.githubusercontent.com/75089445/128631612-6b428c2e-a9e4-4a1b-8d56-cd7308a42f25.png)
 
