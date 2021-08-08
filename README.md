@@ -11,6 +11,7 @@ Run the elasticsearch.bat using the command prompt. Elasticsearch can then be ac
 ### Kibana
 
 Download the latest version of kibana from [Kibana downloads](https://www.elastic.co/downloads/kibana)
+
 Run the kibana.bat using the command prompt. kibana UI can then be accessed at localhost:5601
 
 ![image](https://user-images.githubusercontent.com/75089445/128631258-ba63a780-b610-4403-90c5-1764c2d18f90.png)
