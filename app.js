@@ -1,14 +1,27 @@
   
+
 const elasticSearch = require('elasticsearch')
+const logger = require('./logger')
 
 const client = new elasticSearch.Client({
     host: 'localhost:9200',
     pingTimeout: 3000
 })
 
+const winston = require('winston')
+const ecsFormat = require('@elastic/ecs-winston-format')
+
+// const logger = winston.createLogger({
+//     level: 'info',
+//     format: ecsFormat(), 
+//     transports: [
+//       new winston.transports.Console()
+//     ]
+//   })
+
 client.ping({}, async function (error) {
     if (error) {
-        console.log('Upss.. ' + error)
+        console.log('Oops.. ' + error)
     } else {
         console.log('connected')
 
@@ -42,7 +55,10 @@ client.ping({}, async function (error) {
                 id: index + 100,
                 body: item
             })
-            console.log(`createdResult`, createdResult)
+            // logger.info("new item created successful", createdResult)
+            logger.log('info', "new item created successful", createdResult)
+            // console.log(`createdResult`, createdResult)
+
         });
 
         const { hits } = await client.search({
@@ -56,7 +72,9 @@ client.ping({}, async function (error) {
                 }
             }
         })
-        console.log(`object`, hits.hits)
+        // logger.info("result", hits.hits)
+        logger.log('info', "result", hits.hits)
+        // console.log(`object`, hits.hits)
 
 
     const updatedRecord = await client.update({
@@ -66,12 +84,14 @@ client.ping({}, async function (error) {
             }
         }
     })
-    console.log(`updatedRecord`, updatedRecord)
+    // logger.info("item updated successful", updatedRecord)
+    logger.log('info', "item updated successful", updatedRecord)
+    // console.log(`updatedRecord`, updatedRecord)
 
     const deletedRecord = await client.delete({ index: 'searches', id: 104 })
-        console.log(`deletedRecord`, deletedRecord)
+        // logger.info("item deleted successful", deletedRecord)
+        logger.log('info', "item deleted successful", deletedRecord)
+        // console.log(`deletedRecord`, deletedRecord)
 
     }
 })
-
-
