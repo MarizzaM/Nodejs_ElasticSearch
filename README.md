@@ -33,7 +33,7 @@ Start filebeat as follows-
 
 ![image](https://user-images.githubusercontent.com/75089445/128631612-6b428c2e-a9e4-4a1b-8d56-cd7308a42f25.png)
 
-### Kibana
+### Kibana - Create Index Partten
 
 ![image](https://user-images.githubusercontent.com/75089445/128631806-38a79c95-c9d8-4bea-9038-6fc76bb02f47.png)
 
@@ -41,8 +41,7 @@ Start filebeat as follows-
 
 ![image](https://user-images.githubusercontent.com/75089445/128631855-b524f20c-8522-4d0b-9046-10c84cd9a000.png)
 
-
-
+![image](https://user-images.githubusercontent.com/75089445/128632122-d75d3706-efd1-4d54-9cd9-315f0342d60c.png)
 
 
 
