@@ -15,7 +15,7 @@ Run the kibana.bat using the command prompt. kibana UI can then be accessed at l
 
 ![image](https://user-images.githubusercontent.com/75089445/128631258-ba63a780-b610-4403-90c5-1764c2d18f90.png)
 
-###Logstash
+### Logstash
 
 Download the latest version of logstash from [Logstash downloads](https://www.elastic.co/downloads/logstash)
 
@@ -25,11 +25,21 @@ Start logstash as follows-
 
 ![image](https://user-images.githubusercontent.com/75089445/128631523-d155129f-e157-4005-92a1-c51b0bbbc785.png)
 
-##FileBeat
+### FileBeat
 
 Download filebeat from [FileBeat Download](https://www.elastic.co/downloads/beats/filebeat)
 
 Start filebeat as follows-
 
 ![image](https://user-images.githubusercontent.com/75089445/128631612-6b428c2e-a9e4-4a1b-8d56-cd7308a42f25.png)
+
+### Kibana
+
+![image](https://user-images.githubusercontent.com/75089445/128631806-38a79c95-c9d8-4bea-9038-6fc76bb02f47.png)
+
+![image](https://user-images.githubusercontent.com/75089445/128631840-ef7e5a52-c7ae-4ae4-8122-dd01c16f8416.png)
+
+![image](https://user-images.githubusercontent.com/75089445/128631855-b524f20c-8522-4d0b-9046-10c84cd9a000.png)
+
+
 
