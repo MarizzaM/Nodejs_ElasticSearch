@@ -1,7 +1,7 @@
 # Filebeat + ELK(Elastic, Logstash and Kibana)
 ## REST API & logs
 
-###### Elasticsearch
+### Elasticsearch
 Download the latest version of elasticsearch from  [Elasticsearch downloads](https://www.elastic.co/downloads/elasticsearch)
 
 Run the elasticsearch.bat using the command prompt. Elasticsearch can then be accessed at localhost:9200
@@ -40,6 +40,8 @@ Start filebeat as follows-
 ![image](https://user-images.githubusercontent.com/75089445/128631840-ef7e5a52-c7ae-4ae4-8122-dd01c16f8416.png)
 
 ![image](https://user-images.githubusercontent.com/75089445/128631855-b524f20c-8522-4d0b-9046-10c84cd9a000.png)
+
+![Uploading Screenshot_1.png…]()
 
 
 
