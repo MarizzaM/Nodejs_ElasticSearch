@@ -41,7 +41,7 @@ Start filebeat as follows-
 
 ![image](https://user-images.githubusercontent.com/75089445/128631855-b524f20c-8522-4d0b-9046-10c84cd9a000.png)
 
-![Uploading Screenshot_1.png…]()
+
 
 
 
